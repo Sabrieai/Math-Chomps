@@ -6,4 +6,5 @@ require './Game'
 
 thisGame =  Game.new
 
-thisGame.first
+puts thisGame.player1.name
+puts thisGame.player2.name
