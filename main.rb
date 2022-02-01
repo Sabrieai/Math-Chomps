@@ -6,5 +6,11 @@ require './Game'
 
 thisGame =  Game.new
 
-puts thisGame.player1.name
-puts thisGame.player2.name
+player1 = thisGame.player1
+player2 = thisGame.player2
+
+while thisGame
+  thisGame.round(player1)
+  thisGame.round(player2)
+end
+
