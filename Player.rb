@@ -1,15 +1,15 @@
 
 class Player
 
-  attr_accessor :lives #:name
+  attr_accessor :lives, :name
 
-  def initialize#(name) 
+  def initialize(name) 
     @lives = 3
-    #@name = name
+    @name = name
   end
 
-  def lose_life
-    lives --
+  def lose
+   @lives -= 1
   end
 
 end
