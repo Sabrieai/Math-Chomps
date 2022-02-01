@@ -32,7 +32,7 @@ class Game
       self.over(player2)
     end
 
-    if !player2.lives == 0
+    if player2.lives == 0
       self.over(player1)
     end
 

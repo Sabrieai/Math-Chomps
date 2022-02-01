@@ -9,7 +9,7 @@ class Player
   end
 
   def lose
-   @lives -= 1
+  @lives -= 1
   end
 
 end
